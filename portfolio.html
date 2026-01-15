@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio | Skydaddy Web Development</title>
+    <meta name="description" content="View our completed projects including Nivali Dental and 5 pending projects. See our web development work in Nairobi.">
+    <meta name="keywords" content="web development portfolio Nairobi, completed projects, Skydaddy work, software projects Kenya">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/logo/skydaddy-logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">SD</div>
+                <div class="logo-text">
+                    <span class="logo-primary">Sky</span><span class="logo-accent">daddy</span>
+                </div>
+            </a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a>
+                <a href="services.html" class="nav-link"><i class="fas fa-code"></i> Services</a>
+                <a href="portfolio.html" class="nav-link active"><i class="fas fa-briefcase"></i> Portfolio</a>
+                <a href="contact.html" class="nav-cta"><i class="fas fa-paper-plane"></i> Contact</a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <div class="logo-icon">SD</div>
+                <div class="logo-text">Skydaddy</div>
+            </div>
+            <button class="close-menu" id="closeMenuBtn"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="index.html" class="mobile-link"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html" class="mobile-link"><i class="fas fa-user"></i> About</a>
+            <a href="services.html" class="mobile-link"><i class="fas fa-code"></i> Services</a>
+            <a href="portfolio.html" class="mobile-link active"><i class="fas fa-briefcase"></i> Portfolio</a>
+            <a href="contact.html" class="mobile-link"><i class="fas fa-paper-plane"></i> Contact</a>
+        </div>
+        <div class="mobile-contact">
+            <a href="tel:+254117702463" class="mobile-phone"><i class="fas fa-phone"></i> Call Us</a>
+            <a href="https://wa.me/254117702463" target="_blank" class="mobile-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Our <span class="highlight">Portfolio</span></h1>
+                <p class="hero-subtitle">See our completed projects and work in progress</p>
+                <div class="portfolio-stats">
+                    <div class="stat-badge">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-badge">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Management Systems</span>
+                    </div>
+                    <div class="stat-badge">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label">Pending Projects</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Portfolio Projects" style="border-radius: var(--radius-xl);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+                <button class="filter-btn" data-filter="pending">Pending</button>
+                <button class="filter-btn" data-filter="management">Management Systems</button>
+                <button class="filter-btn" data-filter="web">Websites</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <!-- Completed Projects -->
+            <div class="portfolio-category">
+                <h3 class="category-title">Completed Projects</h3>
+                <p class="category-subtitle">Successfully delivered and live projects</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Nivali Dental -->
+                <div class="project-card completed" data-category="completed,web">
+                    <div class="project-image">
+                        <img src="https://kechiii-tech.github.io/nivalidental/screenshot.png" alt="Nivali Dental" onerror="this.src='images/portfolio/nivalidental.png'">
+                        <div class="project-status completed">Live</div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Healthcare Website</span>
+                        <h4 class="project-title">Nivali Dental Clinic</h4>
+                        <p class="project-description">A responsive dental clinic website with appointment booking system, service showcase, and patient information portal.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://kechiii-tech.github.io/nivalidental/" target="_blank" class="btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/kechiii-tech/nivalidental" target="_blank" class="btn-secondary">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2: School Management System -->
+                <div class="project-card completed" data-category="completed,management">
+                    <div class="project-image">
+                        <div class="placeholder-image">SMS</div>
+                        <div class="project-status completed">Live</div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Management System</span>
+                        <h4 class="project-title">School Management System</h4>
+                        <p class="project-description">Complete system for managing students, staff, classes, fees, and academic records for educational institutions.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn-primary" onclick="alert('Private repository - contact for demo')">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: Inventory Management -->
+                <div class="project-card completed" data-category="completed,management">
+                    <div class="project-image">
+                        <div class="placeholder-image">IMS</div>
+                        <div class="project-status completed">Live</div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Management System</span>
+                        <h4 class="project-title">Inventory Management System</h4>
+                        <p class="project-description">System for tracking inventory, sales, purchases, and supplier management for retail businesses.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>React</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn-primary" onclick="alert('Private repository - contact for demo')">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4: CRM System -->
+                <div class="project-card completed" data-category="completed,management">
+                    <div class="project-image">
+                        <div class="placeholder-image">CRM</div>
+                        <div class="project-status completed">Live</div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Management System</span>
+                        <h4 class="project-title">Customer Relationship Management</h4>
+                        <p class="project-description">CRM system for managing customer interactions, sales pipeline, and marketing campaigns.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>Vue.js</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <button class="btn-primary" onclick="alert('Private repository - contact for demo')">
+                                <i class="fas fa-eye"></i> View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pending Projects -->
+            <div class="portfolio-category">
+                <h3 class="category-title">Projects in Progress</h3>
+                <p class="category-subtitle">Currently under development (5 projects)</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Pending Project 1 -->
+                <div class="project-card pending" data-category="pending">
+                    <div class="project-image">
+                        <div class="placeholder-image">P1</div>
+                        <div class="project-status pending">In Progress</div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">E-commerce Platform</span>
+                        <h4 class="project-title">Online Store Solution</h4>
+                        <p class="project-description">Complete e-commerce platform with product management, shopping cart, payment integration, and order tracking.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe API</span>
+                        </div>
+                        <div class="project-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 65%"></div>
+                            </div>
+                            <span class="progress-text">65% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pending Project 2 -->
+                <div class="project-card pending" data-category="pending">
+                    <div class="project-image">
+                        <div class="placeholder-image">P2</div>
+                        <div class="project-status pending">In Progress</div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Healthcare System</span>
+                        <h4 class="project-title">Hospital Management System</h4>
+                        <p class="project-description">Comprehensive system for patient management, appointments, billing, and medical records for hospitals.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                            <span>React</span>
+                        </div>
+                        <div class="project-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 40%"></div>
+                            </div>
+                            <span class="progress-text">40% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add 3 more pending projects similarly -->
+                <!-- Pending Project 3 -->
+                <div class="project-card pending" data-category="pending">
+                    <div class="project-image">
+                        <div class="placeholder-image">P3</div>
+                        <div class="project-status pending">Planning</div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Real Estate</span>
+                        <h4 class="project-title">Property Listing Portal</h4>
+                        <p class="project-description">Platform for property listings, agent management, and virtual property tours.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+                            <span>Map APIs</span>
+                        </div>
+                        <div class="project-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 20%"></div>
+                            </div>
+                            <span class="progress-text">20% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Showcase -->
+    <section class="project-showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <h2>Have a Project in Mind?</h2>
+                <p>Let's discuss your web development needs. We can help bring your ideas to life with our expertise.</p>
+                <div class="showcase-buttons">
+                    <a href="contact.html" class="btn-primary">
+                        <i class="fas fa-lightbulb"></i> Discuss Your Project
+                    </a>
+                    <a href="services.html" class="btn-secondary">
+                        <i class="fas fa-code"></i> View Our Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Same Footer as About Page -->
+    <footer class="footer">
+        <!-- Same footer content as about.html -->
+    </footer>
+
+    <!-- Portfolio Filter JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Portfolio Filter
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Show/hide projects based on filter
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all') {
+                            card.style.display = 'block';
+                        } else {
+                            const categories = card.getAttribute('data-category');
+                            if (categories.includes(filterValue)) {
+                                card.style.display = 'block';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

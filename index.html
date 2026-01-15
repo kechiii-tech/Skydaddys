@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skydaddy | Web Development Company Nairobi</title>
+    <meta name="description" content="Skydaddy Web Development Company based in Nairobi, Kenya. We offer full-stack development, web solutions, and software engineering services.">
+    <meta name="keywords" content="web development Nairobi, software company Kenya, full stack developer, web design Kenya">
+    <meta name="author" content="Kipkoech Emmanuel">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/logo/skydaddy-logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">SD</div>
+                <div class="logo-text">
+                    <span class="logo-primary">Sky</span><span class="logo-accent">daddy</span>
+                </div>
+            </a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a>
+                <a href="services.html" class="nav-link"><i class="fas fa-code"></i> Services</a>
+                <a href="portfolio.html" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a>
+                <a href="contact.html" class="nav-cta"><i class="fas fa-paper-plane"></i> Contact</a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <div class="logo-icon">SD</div>
+                <div class="logo-text">Skydaddy</div>
+            </div>
+            <button class="close-menu" id="closeMenuBtn"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="index.html" class="mobile-link active"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html" class="mobile-link"><i class="fas fa-user"></i> About</a>
+            <a href="services.html" class="mobile-link"><i class="fas fa-code"></i> Services</a>
+            <a href="portfolio.html" class="mobile-link"><i class="fas fa-briefcase"></i> Portfolio</a>
+            <a href="contact.html" class="mobile-link"><i class="fas fa-paper-plane"></i> Contact</a>
+        </div>
+        <div class="mobile-contact">
+            <a href="tel:+254117702463" class="mobile-phone"><i class="fas fa-phone"></i> Call Us</a>
+            <a href="https://wa.me/254117702463" target="_blank" class="mobile-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">Nairobi Based</span>
+                <h1 class="hero-title">We Build Digital Solutions That <span class="highlight">Elevate</span> Your Business</h1>
+                <p class="hero-subtitle">Full-stack web development, custom software solutions, and digital transformation for businesses in Nairobi and beyond.</p>
+                <div class="hero-buttons">
+                    <a href="portfolio.html" class="btn-primary">
+                        <i class="fas fa-eye"></i> View Portfolio
+                    </a>
+                    <a href="contact.html" class="btn-secondary">
+                        <i class="fas fa-comments"></i> Free Consultation
+                    </a>
+                </div>
+                <div class="hero-contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>Email</span>
+                            <a href="mailto:kipkoechryan123@gmail.com">kipkoechryan123@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <span>Call/WhatsApp</span>
+                            <a href="tel:+254117702463">+254 117 702 463</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <span>GitHub</span>
+                            <a href="https://github.com/kechiii-tech" target="_blank">kechiii-tech</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span>skydaddy_dev.js</span>
+                        </div>
+                        <pre class="code-content"><code class="javascript">
+// Building Digital Excellence
+const skydaddy = {
+    expertise: ["Web Development", "Full-Stack", "Mobile Apps"],
+    completedProjects: 6,
+    managementSystems: 3,
+    location: "Nairobi, Kenya",
+    satisfaction: "100%",
+    
+    deliverProject: function(client) {
+        return `Crafting digital solution for ${client}`;
+    }
+};
+
+// Our Promise
+class Quality {
+    constructor() {
+        this.standards = "Highest";
+        this.innovation = true;
+        this.support = "24/7";
+    }
+    
+    guarantee() {
+        return "Client satisfaction guaranteed";
+    }
+}
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="6">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="3">0</div>
+                    <div class="stat-label">Management Systems</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="5">0</div>
+                    <div class="stat-label">Active Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="100">0</div>
+                    <div class="stat-label">% Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Recent Work</h2>
+                <p class="section-subtitle">Showcasing quality and attention to detail in every project</p>
+            </div>
+            
+            <div class="projects-showcase">
+                <!-- Project 1: Nivali Dental -->
+                <div class="project-showcase-card">
+                    <div class="project-showcase-image">
+                        <div class="image-container">
+                            <img src="https://images.unsplash.com/photo-1522338242990-e1b1c9c01c5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Black developer working on website">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <h4>Responsive Design</h4>
+                                    <p>Perfect display on all devices</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-showcase-content">
+                        <span class="project-category">Healthcare Website</span>
+                        <h3 class="project-title">Nivali Dental Clinic</h3>
+                        <p class="project-description">
+                            A comprehensive dental clinic website with appointment management system, 
+                            service showcase, and responsive design for optimal user experience.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Mobile-First Design</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Fast Loading Speed</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>SEO Optimized</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <a href="portfolio.html#nivalidental" class="btn-secondary">
+                            <i class="fas fa-info-circle"></i> Project Details
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2: Management System -->
+                <div class="project-showcase-card reverse">
+                    <div class="project-showcase-content">
+                        <span class="project-category">Management System</span>
+                        <h3 class="project-title">School Management System</h3>
+                        <p class="project-description">
+                            Complete system for managing student records, staff management, 
+                            academic tracking, and financial operations for educational institutions.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>User Authentication</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Database Management</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Reporting Dashboard</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">AdminLTE</span>
+                        </div>
+                        <a href="portfolio.html#school-management" class="btn-secondary">
+                            <i class="fas fa-info-circle"></i> Project Details
+                        </a>
+                    </div>
+                    <div class="project-showcase-image">
+                        <div class="image-container">
+                            <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Black man analyzing data on laptop">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <h4>Admin Dashboard</h4>
+                                    <p>Comprehensive management interface</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: E-commerce -->
+                <div class="project-showcase-card">
+                    <div class="project-showcase-image">
+                        <div class="image-container">
+                            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="African businesswoman managing online store">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <h4>Online Store</h4>
+                                    <p>Product catalog & shopping cart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-showcase-content">
+                        <span class="project-category">E-commerce Platform</span>
+                        <h3 class="project-title">Online Retail Store</h3>
+                        <p class="project-description">
+                            Feature-rich e-commerce platform with product management, 
+                            shopping cart, secure payment gateway, and order tracking system.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Payment Integration</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Inventory Management</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Customer Portal</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe API</span>
+                        </div>
+                        <a href="portfolio.html#ecommerce" class="btn-secondary">
+                            <i class="fas fa-info-circle"></i> Project Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="all-projects-cta">
+                <a href="portfolio.html" class="btn-primary">
+                    <i class="fas fa-briefcase"></i> View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Expertise</h2>
+                <p class="section-subtitle">Comprehensive web development services</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="service-title">Full-Stack Development</h3>
+                    <p class="service-description">
+                        Complete web applications from frontend to backend, database design, and deployment.
+                    </p>
+                    <a href="services.html#fullstack" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">
+                        Responsive websites, progressive web apps, and custom web solutions.
+                    </p>
+                    <a href="services.html#webdev" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="service-title">Management Systems</h3>
+                    <p class="service-description">
+                        Custom CRM, ERP, inventory, and business management systems.
+                    </p>
+                    <a href="services.html#management" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Mobile Applications</h3>
+                    <p class="service-description">
+                        Native and cross-platform mobile apps for iOS and Android devices.
+                    </p>
+                    <a href="services.html#mobile-apps" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="services-cta">
+                <div class="services-content">
+                    <h3>Need a Custom Solution?</h3>
+                    <p>We tailor our services to meet your specific business requirements</p>
+                </div>
+                <a href="contact.html" class="btn-primary">
+                    <i class="fas fa-paper-plane"></i> Discuss Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Process -->
+    <section class="development-process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Development Process</h2>
+                <p class="section-subtitle">Structured approach for successful project delivery</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h4>Discovery & Planning</h4>
+                        <p>We analyze requirements and plan the project architecture</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h4>Design & Prototyping</h4>
+                        <p>Create wireframes and design mockups for client approval</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h4>Development</h4>
+                        <p>Write clean, efficient code following best practices</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h4>Testing & Quality</h4>
+                        <p>Thorough testing to ensure everything works perfectly</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h4>Deployment</h4>
+                        <p>Deploy to production and launch your project</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <h4>Support</h4>
+                        <p>Provide ongoing support and maintenance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="technology-stack">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technologies We Use</h2>
+                <p class="section-subtitle">Modern tools and frameworks for quality solutions</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h4><i class="fas fa-paint-brush"></i> Frontend</h4>
+                    <div class="tech-items">
+                        <span class="tech-item">HTML5</span>
+                        <span class="tech-item">CSS3/SASS</span>
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">React.js</span>
+                        <span class="tech-item">Vue.js</span>
+                        <span class="tech-item">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4><i class="fas fa-server"></i> Backend</h4>
+                    <div class="tech-items">
+                        <span class="tech-item">Node.js</span>
+                        <span class="tech-item">PHP/Laravel</span>
+                        <span class="tech-item">Python/Django</span>
+                        <span class="tech-item">Express.js</span>
+                        <span class="tech-item">REST APIs</span>
+                        <span class="tech-item">GraphQL</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4><i class="fas fa-database"></i> Database</h4>
+                    <div class="tech-items">
+                        <span class="tech-item">MySQL</span>
+                        <span class="tech-item">MongoDB</span>
+                        <span class="tech-item">PostgreSQL</span>
+                        <span class="tech-item">Firebase</span>
+                        <span class="tech-item">Redis</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4><i class="fas fa-tools"></i> Tools & DevOps</h4>
+                    <div class="tech-items">
+                        <span class="tech-item">Git & GitHub</span>
+                        <span class="tech-item">Docker</span>
+                        <span class="tech-item">AWS</span>
+                        <span class="tech-item">CI/CD</span>
+                        <span class="tech-item">Nginx</span>
+                        <span class="tech-item">Webpack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Start Your Project Today</h2>
+                <p class="cta-text">Get a free consultation and quote for your web development needs</p>
+                <div class="cta-buttons">
+                    <a href="tel:+254117702463" class="btn-primary">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <a href="https://wa.me/254117702463" target="_blank" class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="mailto:kipkoechryan123@gmail.com" class="btn-secondary">
+                        <i class="fas fa-envelope"></i> Email Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">SD</div>
+                        <div class="logo-text">
+                            <span class="logo-primary">Sky</span><span class="logo-accent">daddy</span>
+                        </div>
+                    </div>
+                    <p class="footer-about">
+                        Web development company based in Nairobi, Kenya. We build digital solutions 
+                        that help businesses grow and succeed in the online world.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/kechiii-tech" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/SkydaddyS" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kipk5-emmanuel" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/skyda.ddys" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#webdev"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="services.html#fullstack"><i class="fas fa-chevron-right"></i> Full-Stack Solutions</a></li>
+                        <li><a href="services.html#management"><i class="fas fa-chevron-right"></i> Management Systems</a></li>
+                        <li><a href="services.html#mobile-apps"><i class="fas fa-chevron-right"></i> Mobile Apps</a></li>
+                        <li><a href="services.html#consulting"><i class="fas fa-chevron-right"></i> IT Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nairobi, Kenya</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+254117702463">+254 117 702 463</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:kipkoechryan123@gmail.com">kipkoechryan123@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/kechiii-tech" target="_blank">kechiii-tech</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> Skydaddy Web Development. All rights reserved.</p>
+                <p>CEO: <strong>Kipkoech Emmanuel</strong> | Computer Science Student, Nairobi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

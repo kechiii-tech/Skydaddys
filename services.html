@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Skydaddy Web Development</title>
+    <meta name="description" content="Professional web development services in Nairobi. Full-stack development, mobile apps, SEO, hosting, and digital marketing solutions.">
+    <meta name="keywords" content="web development services Nairobi, full stack development Kenya, mobile app development, digital marketing, SEO services Kenya">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/logo/skydaddy-logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">SD</div>
+                <div class="logo-text">
+                    <span class="logo-primary">Sky</span><span class="logo-accent">daddy</span>
+                </div>
+            </a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="nav-link"><i class="fas fa-user"></i> About</a>
+                <a href="services.html" class="nav-link active"><i class="fas fa-code"></i> Services</a>
+                <a href="portfolio.html" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a>
+                <a href="contact.html" class="nav-cta"><i class="fas fa-paper-plane"></i> Contact</a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <div class="logo-icon">SD</div>
+                <div class="logo-text">Skydaddy</div>
+            </div>
+            <button class="close-menu" id="closeMenuBtn"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="index.html" class="mobile-link"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html" class="mobile-link"><i class="fas fa-user"></i> About</a>
+            <a href="services.html" class="mobile-link active"><i class="fas fa-code"></i> Services</a>
+            <a href="portfolio.html" class="mobile-link"><i class="fas fa-briefcase"></i> Portfolio</a>
+            <a href="contact.html" class="mobile-link"><i class="fas fa-paper-plane"></i> Contact</a>
+        </div>
+        <div class="mobile-contact">
+            <a href="tel:+254117702463" class="mobile-phone"><i class="fas fa-phone"></i> Call Us</a>
+            <a href="https://wa.me/254117702463" target="_blank" class="mobile-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Complete <span class="highlight">Tech Solutions</span></h1>
+                <p class="hero-subtitle">End-to-end digital services for businesses in Nairobi and beyond</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn-primary">
+                        <i class="fas fa-tags"></i> View Pricing
+                    </a>
+                    <a href="contact.html" class="btn-secondary">
+                        <i class="fas fa-comments"></i> Custom Quote
+                    </a>
+                </div>
+                <div class="service-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>20+ Services</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Flexible Payment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Tech Services Dashboard" style="border-radius: var(--radius-xl);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Navigation -->
+    <section class="services-nav">
+        <div class="container">
+            <div class="nav-scroll">
+                <a href="#web-dev" class="service-nav-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Web Development</span>
+                </a>
+                <a href="#mobile-apps" class="service-nav-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile Apps</span>
+                </a>
+                <a href="#ecommerce" class="service-nav-item">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>E-commerce</span>
+                </a>
+                <a href="#seo" class="service-nav-item">
+                    <i class="fas fa-search"></i>
+                    <span>SEO & Marketing</span>
+                </a>
+                <a href="#hosting" class="service-nav-item">
+                    <i class="fas fa-server"></i>
+                    <span>Hosting</span>
+                </a>
+                <a href="#consulting" class="service-nav-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Consulting</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Services Section -->
+    <section class="main-services" id="web-dev">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Web Development Services</h2>
+                <p class="section-subtitle">Build responsive, modern websites that convert visitors to customers</p>
+            </div>
+
+            <div class="services-category">
+                <h3><i class="fas fa-desktop"></i> Website Development</h3>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-file-code"></i>
+                        </div>
+                        <h4>Basic Website</h4>
+                        <p class="service-price">Ksh 15,000 - 35,000</p>
+                        <p class="service-desc">Simple 5-page responsive website with contact form</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> 5 Pages Design</li>
+                            <li><i class="fas fa-check"></i> Mobile Responsive</li>
+                            <li><i class="fas fa-check"></i> Contact Form</li>
+                            <li><i class="fas fa-check"></i> Basic SEO Setup</li>
+                            <li><i class="fas fa-check"></i> 1 Month Support</li>
+                        </ul>
+                        <a href="contact.html?service=basic-website" class="btn-primary">Get Quote</a>
+                    </div>
+
+                    <div class="service-item featured">
+                        <div class="service-badge">Most Popular</div>
+                        <div class="service-icon">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <h4>Business Website</h4>
+                        <p class="service-price">Ksh 40,000 - 80,000</p>
+                        <p class="service-desc">Professional website with CMS and admin panel</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> 8-10 Pages</li>
+                            <li><i class="fas fa-check"></i> CMS Integration</li>
+                            <li><i class="fas fa-check"></i> Admin Dashboard</li>
+                            <li><i class="fas fa-check"></i> SEO Optimized</li>
+                            <li><i class="fas fa-check"></i> 3 Months Support</li>
+                        </ul>
+                        <a href="contact.html?service=business-website" class="btn-primary">Get Quote</a>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>Custom Web Application</h4>
+                        <p class="service-price">Ksh 100,000+</p>
+                        <p class="service-desc">Full-stack custom web apps with advanced features</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Custom Features</li>
+                            <li><i class="fas fa-check"></i> User Authentication</li>
+                            <li><i class="fas fa-check"></i> Database Integration</li>
+                            <li><i class="fas fa-check"></i> API Development</li>
+                            <li><i class="fas fa-check"></i> 6 Months Support</li>
+                        </ul>
+                        <a href="contact.html?service=custom-app" class="btn-primary">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- E-commerce Services -->
+            <div class="services-category" id="ecommerce">
+                <h3><i class="fas fa-shopping-cart"></i> E-commerce Solutions</h3>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <h4>Basic E-commerce</h4>
+                        <p class="service-price">Ksh 50,000 - 100,000</p>
+                        <p class="service-desc">Online store with product catalog and checkout</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> 50 Products</li>
+                            <li><i class="fas fa-check"></i> Shopping Cart</li>
+                            <li><i class="fas fa-check"></i> Payment Integration</li>
+                            <li><i class="fas fa-check"></i> Admin Panel</li>
+                            <li><i class="fas fa-check"></i> 3 Months Support</li>
+                        </ul>
+                        <a href="contact.html?service=basic-ecommerce" class="btn-primary">Get Quote</a>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-warehouse"></i>
+                        </div>
+                        <h4>Advanced E-commerce</h4>
+                        <p class="service-price">Ksh 150,000 - 300,000</p>
+                        <p class="service-desc">Full-featured online store with inventory management</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Unlimited Products</li>
+                            <li><i class="fas fa-check"></i> Inventory System</li>
+                            <li><i class="fas fa-check"></i> Multi-vendor Support</li>
+                            <li><i class="fas fa-check"></i> Analytics Dashboard</li>
+                            <li><i class="fas fa-check"></i> 6 Months Support</li>
+                        </ul>
+                        <a href="contact.html?service=advanced-ecommerce" class="btn-primary">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile App Development -->
+            <div class="services-category" id="mobile-apps">
+                <h3><i class="fas fa-mobile-alt"></i> Mobile App Development</h3>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <h4>Android App</h4>
+                        <p class="service-price">Ksh 80,000 - 150,000</p>
+                        <p class="service-desc">Native Android application development</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Kotlin/Java</li>
+                            <li><i class="fas fa-check"></i> Material Design</li>
+                            <li><i class="fas fa-check"></i> API Integration</li>
+                            <li><i class="fas fa-check"></i> Play Store Deployment</li>
+                            <li><i class="fas fa-check"></i> 3 Months Support</li>
+                        </ul>
+                        <a href="contact.html?service=android-app" class="btn-primary">Get Quote</a>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <h4>iOS App</h4>
+                        <p class="service-price">Ksh 100,000 - 180,000</p>
+                        <p class="service-desc">Native iOS application for iPhone/iPad</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Swift Development</li>
+                            <li><i class="fas fa-check"></i> Apple Design Guidelines</li>
+                            <li><i class="fas fa-check"></i> App Store Deployment</li>
+                            <li><i class="fas fa-check"></i> Push Notifications</li>
+                            <li><i class="fas fa-check"></i> 3 Months Support</li>
+                        </ul>
+                        <a href="contact.html?service=ios-app" class="btn-primary">Get Quote</a>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile"></i>
+                        </div>
+                        <h4>Cross-Platform App</h4>
+                        <p class="service-price">Ksh 120,000 - 200,000</p>
+                        <p class="service-desc">Single codebase for both Android & iOS</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> React Native/Flutter</li>
+                            <li><i class="fas fa-check"></i> Both Platforms</li>
+                            <li><i class="fas fa-check"></i> Cost Effective</li>
+                            <li><i class="fas fa-check"></i> Faster Development</li>
+                            <li><i class="fas fa-check"></i> 4 Months Support</li>
+                        </ul>
+                        <a href="contact.html?service=cross-platform" class="btn-primary">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Marketing Services -->
+    <section class="marketing-services" id="seo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Digital Marketing & SEO</h2>
+                <p class="section-subtitle">Grow your online presence and reach more customers</p>
+            </div>
+
+            <div class="marketing-grid">
+                <div class="marketing-card">
+                    <div class="marketing-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h4>SEO Optimization</h4>
+                    <p class="marketing-price">From Ksh 10,000/month</p>
+                    <ul>
+                        <li>Keyword Research</li>
+                        <li>On-page SEO</li>
+                        <li>Technical SEO Audit</li>
+                        <li>Monthly Reporting</li>
+                    </ul>
+                    <a href="contact.html?service=seo" class="btn-secondary">Learn More</a>
+                </div>
+
+                <div class="marketing-card">
+                    <div class="marketing-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h4>Social Media Marketing</h4>
+                    <p class="marketing-price">From Ksh 15,000/month</p>
+                    <ul>
+                        <li>Content Creation</li>
+                        <li>Community Management</li>
+                        <li>Paid Ads Campaign</li>
+                        <li>Performance Analytics</li>
+                    </ul>
+                    <a href="contact.html?service=smm" class="btn-secondary">Learn More</a>
+                </div>
+
+                <div class="marketing-card">
+                    <div class="marketing-icon">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </div>
+                    <h4>Email Marketing</h4>
+                    <p class="marketing-price">From Ksh 8,000/month</p>
+                    <ul>
+                        <li>Newsletter Design</li>
+                        <li>Automation Setup</li>
+                        <li>List Management</li>
+                        <li>Campaign Analysis</li>
+                    </ul>
+                    <a href="contact.html?service=email-marketing" class="btn-secondary">Learn More</a>
+                </div>
+
+                <div class="marketing-card">
+                    <div class="marketing-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h4>Google/Facebook Ads</h4>
+                    <p class="marketing-price">From Ksh 5,000 + Ad Budget</p>
+                    <ul>
+                        <li>Campaign Strategy</li>
+                        <li>Ad Creative Design</li>
+                        <li>A/B Testing</li>
+                        <li>ROI Optimization</li>
+                    </ul>
+                    <a href="contact.html?service=ads" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hosting & Maintenance -->
+    <section class="hosting-services" id="hosting">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hosting & Maintenance Plans</h2>
+                <p class="section-subtitle">Keep your website secure, fast, and always online</p>
+            </div>
+
+            <div class="pricing-grid" id="pricing">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h4>Basic Hosting</h4>
+                        <div class="price">Ksh 2,500<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 5GB SSD Storage</li>
+                        <li><i class="fas fa-check"></i> 50GB Bandwidth</li>
+                        <li><i class="fas fa-check"></i> Free SSL Certificate</li>
+                        <li><i class="fas fa-check"></i> Weekly Backups</li>
+                        <li><i class="fas fa-check"></i> 99.9% Uptime</li>
+                        <li><i class="fas fa-times"></i> Priority Support</li>
+                    </ul>
+                    <a href="contact.html?plan=basic-hosting" class="btn-primary">Choose Plan</a>
+                </div>
+
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Recommended</div>
+                    <div class="pricing-header">
+                        <h4>Business Hosting</h4>
+                        <div class="price">Ksh 5,000<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 20GB SSD Storage</li>
+                        <li><i class="fas fa-check"></i> Unlimited Bandwidth</li>
+                        <li><i class="fas fa-check"></i> Free SSL Certificate</li>
+                        <li><i class="fas fa-check"></i> Daily Backups</li>
+                        <li><i class="fas fa-check"></i> 99.9% Uptime</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                    </ul>
+                    <a href="contact.html?plan=business-hosting" class="btn-primary">Choose Plan</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h4>Premium Hosting</h4>
+                        <div class="price">Ksh 8,000<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 50GB SSD Storage</li>
+                        <li><i class="fas fa-check"></i> Unlimited Bandwidth</li>
+                        <li><i class="fas fa-check"></i> Free SSL Certificate</li>
+                        <li><i class="fas fa-check"></i> Real-time Backups</li>
+                        <li><i class="fas fa-check"></i> 99.99% Uptime</li>
+                        <li><i class="fas fa-check"></i> 24/7 Premium Support</li>
+                    </ul>
+                    <a href="contact.html?plan=premium-hosting" class="btn-primary">Choose Plan</a>
+                </div>
+            </div>
+
+            <!-- Maintenance Plans -->
+            <div class="maintenance-plans">
+                <h3><i class="fas fa-tools"></i> Website Maintenance Plans</h3>
+                <div class="maintenance-grid">
+                    <div class="maintenance-card">
+                        <h4>Basic Maintenance</h4>
+                        <p class="maintenance-price">Ksh 3,000<span>/month</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Security Updates</li>
+                            <li><i class="fas fa-check"></i> Bug Fixes</li>
+                            <li><i class="fas fa-check"></i> Monthly Backup</li>
+                            <li><i class="fas fa-times"></i> Content Updates</li>
+                        </ul>
+                    </div>
+
+                    <div class="maintenance-card">
+                        <h4>Standard Maintenance</h4>
+                        <p class="maintenance-price">Ksh 6,000<span>/month</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Security Updates</li>
+                            <li><i class="fas fa-check"></i> Bug Fixes</li>
+                            <li><i class="fas fa-check"></i> Weekly Backup</li>
+                            <li><i class="fas fa-check"></i> 5 Content Updates</li>
+                        </ul>
+                    </div>
+
+                    <div class="maintenance-card">
+                        <h4>Premium Maintenance</h4>
+                        <p class="maintenance-price">Ksh 10,000<span>/month</span></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Security Updates</li>
+                            <li><i class="fas fa-check"></i> Bug Fixes</li>
+                            <li><i class="fas fa-check"></i> Daily Backup</li>
+                            <li><i class="fas fa-check"></i> Unlimited Updates</li>
+                            <li><i class="fas fa-check"></i> Performance Monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consulting Services -->
+    <section class="consulting-services" id="consulting">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">IT Consulting & Strategy</h2>
+                <p class="section-subtitle">Expert guidance for your digital transformation</p>
+            </div>
+
+            <div class="consulting-grid">
+                <div class="consulting-item">
+                    <div class="consulting-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h4>Digital Strategy</h4>
+                    <p>Comprehensive digital roadmap for business growth</p>
+                    <p class="consulting-price">From Ksh 25,000</p>
+                </div>
+
+                <div class="consulting-item">
+                    <div class="consulting-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Security Audit</h4>
+                    <p>Identify vulnerabilities and strengthen your security</p>
+                    <p class="consulting-price">From Ksh 15,000</p>
+                </div>
+
+                <div class="consulting-item">
+                    <div class="consulting-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h4>Performance Optimization</h4>
+                    <p>Speed up your website and improve user experience</p>
+                    <p class="consulting-price">From Ksh 10,000</p>
+                </div>
+
+                <div class="consulting-item">
+                    <div class="consulting-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h4>Training & Workshops</h4>
+                    <p>Train your team on modern web technologies</p>
+                    <p class="consulting-price">From Ksh 20,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="service-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Need Custom Solutions?</h2>
+                <p class="cta-text">Every business is unique. Get a personalized quote for your specific needs.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/254117702463" target="_blank" class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Quote
+                    </a>
+                    <a href="mailto:kipkoechryan123@gmail.com" class="btn-secondary">
+                        <i class="fas fa-envelope"></i> Email Requirements
+                    </a>
+                    <a href="tel:+254117702463" class="btn-primary">
+                        <i class="fas fa-phone"></i> Call for Consultation
+                    </a>
+                </div>
+                <p class="cta-note"><i class="fas fa-clock"></i> All quotes provided within 24 hours</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">SD</div>
+                        <div class="logo-text">
+                            <span class="logo-primary">Sky</span><span class="logo-accent">daddy</span>
+                        </div>
+                    </div>
+                    <p class="footer-about">
+                        Web development company based in Nairobi, Kenya. We build digital solutions 
+                        that help businesses grow and succeed in the online world.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/kechiii-tech" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/SkydaddyS" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kipk5-emmanuel" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/skyda.ddys" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Popular Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-dev"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="services.html#ecommerce"><i class="fas fa-chevron-right"></i> E-commerce Solutions</a></li>
+                        <li><a href="services.html#mobile-apps"><i class="fas fa-chevron-right"></i> Mobile Apps</a></li>
+                        <li><a href="services.html#seo"><i class="fas fa-chevron-right"></i> SEO & Marketing</a></li>
+                        <li><a href="services.html#hosting"><i class="fas fa-chevron-right"></i> Hosting & Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nairobi, Kenya</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+254117702463">+254 117 702 463</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:kipkoechryan123@gmail.com">kipkoechryan123@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/kechiii-tech" target="_blank">kechiii-tech</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> Skydaddy Web Development. All rights reserved.</p>
+                <p>CEO: <strong>Kipkoech Emmanuel</strong> | Computer Science Student, Nairobi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set current year in footer
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            
+            // Service navigation scroll
+            const serviceNavItems = document.querySelectorAll('.service-nav-item');
+            serviceNavItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Highlight active service based on scroll
+            window.addEventListener('scroll', function() {
+                const sections = document.querySelectorAll('[id]');
+                let currentSection = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 150;
+                    const sectionHeight = section.clientHeight;
+                    if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                        currentSection = section.id;
+                    }
+                });
+                
+                serviceNavItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('href') === `#${currentSection}`) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+
+            // Mobile Menu Functionality
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const closeMenuBtn = document.getElementById('closeMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    mobileMenu.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
+            }
+            
+            if (closeMenuBtn) {
+                closeMenuBtn.addEventListener('click', function() {
+                    mobileMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            }
+            
+            // Close mobile menu when clicking on a link
+            const mobileLinks = document.querySelectorAll('.mobile-link');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+            
+            // Close mobile menu when clicking outside
+            mobileMenu.addEventListener('click', function(e) {
+                if (e.target === mobileMenu) {
+                    mobileMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // Get Quote Buttons - Add service parameter to URL
+            const quoteButtons = document.querySelectorAll('.btn-primary[href^="contact.html"]');
+            quoteButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    // The service parameter is already in the href
+                    // We'll just let it navigate normally
+                });
+            });
+
+            // Counter animation for stats
+            const statNumbers = document.querySelectorAll('.stat-number');
+            
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const statNumber = entry.target;
+                        const target = parseInt(statNumber.getAttribute('data-count'));
+                        animateCounter(statNumber, target);
+                        observer.unobserve(statNumber);
+                    }
+                });
+            }, observerOptions);
+            
+            statNumbers.forEach(stat => observer.observe(stat));
+
+            function animateCounter(element, target) {
+                let current = 0;
+                const increment = target / 100;
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        element.textContent = target + (target === 100 ? '%' : '+');
+                        clearInterval(timer);
+                    } else {
+                        element.textContent = Math.floor(current) + (target === 100 ? '%' : '+');
+                    }
+                }, 20);
+            }
+        });
+    </script>
+</body>
+</html>

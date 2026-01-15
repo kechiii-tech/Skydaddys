@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Skydaddy Web Development</title>
+    <meta name="description" content="Learn about Skydaddy Web Development Company based in Nairobi, Kenya. Meet our CEO Kipkoech Emmanuel.">
+    <meta name="keywords" content="about Skydaddy, Nairobi web developers, Kipkoech Emmanuel, web development company Kenya">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/logo/skydaddy-logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">SD</div>
+                <div class="logo-text">
+                    <span class="logo-primary">Sky</span><span class="logo-accent">daddy</span>
+                </div>
+            </a>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html" class="nav-link active"><i class="fas fa-user"></i> About</a>
+                <a href="services.html" class="nav-link"><i class="fas fa-code"></i> Services</a>
+                <a href="portfolio.html" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a>
+                <a href="contact.html" class="nav-cta"><i class="fas fa-paper-plane"></i> Contact</a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <div class="logo-icon">SD</div>
+                <div class="logo-text">Skydaddy</div>
+            </div>
+            <button class="close-menu" id="closeMenuBtn"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="index.html" class="mobile-link"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html" class="mobile-link active"><i class="fas fa-user"></i> About</a>
+            <a href="services.html" class="mobile-link"><i class="fas fa-code"></i> Services</a>
+            <a href="portfolio.html" class="mobile-link"><i class="fas fa-briefcase"></i> Portfolio</a>
+            <a href="contact.html" class="mobile-link"><i class="fas fa-paper-plane"></i> Contact</a>
+        </div>
+        <div class="mobile-contact">
+            <a href="tel:+254117702463" class="mobile-phone"><i class="fas fa-phone"></i> Call Us</a>
+            <a href="https://wa.me/254117702463" target="_blank" class="mobile-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">About <span class="highlight">Skydaddy</span></h1>
+                <p class="hero-subtitle">Building digital excellence from Nairobi, Kenya</p>
+                <div class="hero-buttons">
+                    <a href="#story" class="btn-primary">
+                        <i class="fas fa-book"></i> Our Story
+                    </a>
+                    <a href="#team" class="btn-secondary">
+                        <i class="fas fa-users"></i> Meet Our Team
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="African tech entrepreneurs in Nairobi" style="border-radius: var(--radius-xl);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Story -->
+    <section class="about-story" id="story">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Story</h2>
+                <p class="section-subtitle">From Nairobi with code and passion</p>
+            </div>
+            <div class="story-content">
+                <div class="story-text">
+                    <h3>Building the Future of Web Development</h3>
+                    <p>Skydaddy was founded by <strong>Kipkoech Emmanuel</strong>, a Computer Science student based in Nairobi, who recognized the growing need for professional web development services in Kenya and across Africa.</p>
+                    <p>What started as a solo freelance venture in 2023 has evolved into a full-service web development company serving clients locally and internationally.</p>
+                    <p>Our name "Skydaddy" represents our commitment to building solutions that help businesses reach new heights in the digital space. We believe in creating digital experiences that soar above expectations.</p>
+                    <div class="story-stats">
+                        <div class="stat">
+                            <i class="fas fa-calendar-check"></i>
+                            <div>
+                                <h4>Founded</h4>
+                                <p>2023</p>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Based in</h4>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>Computer Science Student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-image">
+                    <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="African developers collaborating on project">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="mission-vision">
+        <div class="container">
+            <div class="mission-vision-grid">
+                <div class="mv-card mission">
+                    <div class="mv-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To empower businesses with cutting-edge web solutions that drive growth, enhance efficiency, and create memorable digital experiences for their customers.</p>
+                </div>
+                <div class="mv-card vision">
+                    <div class="mv-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To become the leading web development company in East Africa, recognized for innovation, quality, and exceptional client service.</p>
+                </div>
+                <div class="mv-card values">
+                    <div class="mv-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Excellence in Execution</li>
+                        <li><i class="fas fa-check-circle"></i> Client-Centric Approach</li>
+                        <li><i class="fas fa-check-circle"></i> Innovation & Creativity</li>
+                        <li><i class="fas fa-check-circle"></i> Integrity & Transparency</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet Our Founder</h2>
+                <p class="section-subtitle">The visionary behind Skydaddy</p>
+            </div>
+            <div class="team-card">
+                <div class="team-member-image">
+                    <div class="member-photo">
+                        <!-- Replace with actual photo of Kipkoech Emmanuel -->
+                        <div class="photo-placeholder">KE</div>
+                        <div class="member-overlay">
+                            <p>CEO & Lead Developer</p>
+                            <p>Computer Science Student</p>
+                        </div>
+                    </div>
+                    <div class="member-contact">
+                        <a href="mailto:kipkoechryan123@gmail.com" class="contact-btn">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="https://wa.me/254117702463" target="_blank" class="contact-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://github.com/kechiii-tech" target="_blank" class="contact-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                    <div class="nairobi-badge">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Nairobi, Kenya</span>
+                    </div>
+                </div>
+                <div class="team-member-info">
+                    <h3>Kipkoech Emmanuel</h3>
+                    <p class="member-title">CEO & Lead Developer</p>
+                    <div class="member-bio">
+                        <p>A passionate Computer Science student based in Nairobi, Kenya, with expertise in full-stack web development and software engineering.</p>
+                        <p>With a strong foundation in both frontend and backend technologies, Emmanuel leads all projects at Skydaddy, ensuring each solution meets the highest standards of quality and innovation.</p>
+                        <p>When not coding, he mentors aspiring developers and contributes to open-source projects, believing in the power of technology to transform businesses and communities across Africa.</p>
+                    </div>
+                    <div class="member-skills">
+                        <h4>Technical Expertise</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">HTML5/CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python/Django</span>
+                            <span class="skill-tag">MySQL/MongoDB</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Git & DevOps</span>
+                        </div>
+                    </div>
+                    <div class="member-experience">
+                        <h4>Experience & Education</h4>
+                        <div class="experience-grid">
+                            <div class="exp-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h5>Web Development</h5>
+                                    <p>3+ years building websites and web applications</p>
+                                </div>
+                            </div>
+                            <div class="exp-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-university"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h5>Computer Science</h5>
+                                    <p>Currently pursuing degree in Nairobi</p>
+                                </div>
+                            </div>
+                            <div class="exp-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-project-diagram"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h5>Projects Delivered</h5>
+                                    <p>6+ completed projects, 3 management systems</p>
+                                </div>
+                            </div>
+                            <div class="exp-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="exp-content">
+                                    <h5>Client Focus</h5>
+                                    <p>Serving businesses across Kenya and internationally</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Skydaddy</h2>
+                <p class="section-subtitle">What sets us apart in the Nairobi tech scene</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <h4>Local Understanding</h4>
+                    <p>Based in Nairobi, we understand the unique needs and challenges of African businesses.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h4>Fast Delivery</h4>
+                    <p>We prioritize efficiency without compromising on quality. Your project delivered on time.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Personalized Service</h4>
+                    <p>Direct communication with the CEO. No middlemen, just quality service.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Affordable Excellence</h4>
+                    <p>Premium web development services at competitive Nairobi market rates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Work With Us?</h2>
+                <p class="cta-text">Let's build something amazing together. Contact us for a free consultation.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i> Start Project
+                    </a>
+                    <a href="tel:+254117702463" class="btn-secondary">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">SD</div>
+                        <div class="logo-text">
+                            <span class="logo-primary">Sky</span><span class="logo-accent">daddy</span>
+                        </div>
+                    </div>
+                    <p class="footer-about">
+                        Web development company based in Nairobi, Kenya. We build digital solutions 
+                        that help businesses grow and succeed in the online world.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/kechiii-tech" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#webdev"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="services.html#fullstack"><i class="fas fa-chevron-right"></i> Full-Stack Solutions</a></li>
+                        <li><a href="services.html#management"><i class="fas fa-chevron-right"></i> Management Systems</a></li>
+                        <li><a href="services.html#consulting"><i class="fas fa-chevron-right"></i> IT Consulting</a></li>
+                        <li><a href="services.html#maintenance"><i class="fas fa-chevron-right"></i> Maintenance & Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nairobi, Kenya</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+254117702463">+254 117 702 463</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:kipkoechryan123@gmail.com">kipkoechryan123@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/kechiii-tech" target="_blank">kechiii-tech</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2026</span> Skydaddy Web Development. All rights reserved.</p>
+                <p>CEO: <strong>Kipkoech Emmanuel</strong> | Computer Science Student, Nairobi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set current year
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            
+            // Simple animation for experience items
+            const expItems = document.querySelectorAll('.exp-item');
+            expItems.forEach((item, index) => {
+                item.style.animationDelay = `${index * 0.1}s`;
+                item.classList.add('animate-in');
+            });
+        });
+    </script>
+</body>
+</html>
